@@ -15,8 +15,8 @@ public class DAO {
 		String driverName = "org.postgresql.Driver";                    
 		String serverName = "localhost";
 		String mydatabase = "teste";
-		int porta = 5432;
-		String url = "jdbc:postgresql://" + serverName + ":" + porta +"/" + mydatabase;
+		int porta = 49153;
+		String url = "jdbc:postgresql://" + serverName + ":" + porta + "/" + mydatabase;
 		String username = "ti2cc";
 		String password = "ti@cc";
 		boolean status = false;
